@@ -49,10 +49,9 @@ background: #FFFFFF;
 color: #212121;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
-background: #E5E5E5;
 }
 .container {
- width: 1200px;
+width: 1200px;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
@@ -106,15 +105,13 @@ color: #FFFFFF;
 
 .hero_btn
 {
+min-width: 216px;;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
@@ -235,6 +232,11 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /* HEADER ITEMS */
+.page_header
+{
+padding-top: 24px;
+padding-bottom: 25px;
+}
 .logo
 {
 margin-left: 215px;
@@ -244,10 +246,11 @@ margin-right: 93px;
 {
 display: flex;
 align-items: center;
+justify-content: space-between;
 }
 .menu_item:not(:last-child)
 {
-margin-left: 50px;
+margin-right: 50px;
 }
 .page_nav
 {
@@ -262,11 +265,27 @@ align-items: center;
 {
 display: flex;
 }
+.contact_item:not(:last-child)
+{
+margin-right: 50px;
+}
 
 /* HEADER ITEMS */
-/* portfolio items */
+/* Hero section items */
+.hero_title
+{
+display: inline-block;
+width: 696px;
+height: 120px;
+}
+.hero_btn
+{
+
+}
+/* Hero section items */
+/* Portfolio btn list */
 .button_list
 {
 display: flex;
 }
-/* portfolio items */
+/* Portfolio btn list */
