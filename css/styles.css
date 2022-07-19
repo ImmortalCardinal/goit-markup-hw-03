@@ -52,31 +52,17 @@ font-style: normal;
 background: #E5E5E5;
 }
 .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+ width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
 }
 /*  Стилізація Header page */
 .page_header
 {
 background: #FFFFFF;
-padding-top: 32;
-padding-bottom: 32;
 }
-/* Site _nav Display flex */
-.site_nav .list
-{
-display: flex;
-}
-.page-header-container
-{
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-/* Site _nav Display flex */
 .site_nav a
 {
 font-weight: 500;
@@ -248,3 +234,39 @@ line-height: 30px;
 letter-spacing: 0.03em;
 color: #757575;
 }
+/* HEADER ITEMS */
+.logo
+{
+margin-left: 215px;
+margin-right: 93px;
+}
+.page_header_comtainer
+{
+display: flex;
+align-items: center;
+}
+.menu_item:not(:last-child)
+{
+margin-left: 50px;
+}
+.page_nav
+{
+display: flex;
+}
+.site_nav
+{
+display: flex;
+align-items: center;
+}
+.contacts
+{
+display: flex;
+}
+
+/* HEADER ITEMS */
+/* portfolio items */
+.button_list
+{
+display: flex;
+}
+/* portfolio items */

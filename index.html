@@ -16,35 +16,37 @@
 
 <body class="body">
     <!--Header page -->
-    <header class="page_header">
+     <header class="page_header">
+        <div class="container page_header_comtainer">
         <nav class="page_nav">
             <a href="./index.html">
-                <img src="./images/webstudiologo.png" alt="WebStudio" class="logo">
+                <img src="./images/webstudiologo.png" alt="WebStudio" class="logo" width="145" height="31">
             </a>
-            <ul class="site_nav">
-                <li><a href="./index.html" class="site_nav_item1 link list">Студия</a></li>
-                <li><a href="./portfolio.html" class="site_nav_item2 link list">Портфолио</a></li>
-                <li><a href="" class="site_nav_item3 link list">Контакты</a></li>
+            <ul class="site_nav list">
+                <li><a href="./index.html" class="menu_item link">Студия</a></li>
+                <li><a href="./portfolio.html" class="menu_item link">Портфолио</a></li>
+                <li><a href="" class="menu_item link">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="adress">
-            <li><a class="mailtel" href="emailto:info@devstudio.com">info@devstudio.com </a></li>
-            <li><a class="mailtel" href="tel:+380961111111"> +38 096 111 11 11</a></li>
-        </ul>
+            <ul class="contacts adress list">
+                <li><a class="mailtel link" href="emailto:info@devstudio.com">info@devstudio.com </a></li>
+                <li><a class="mailtel link" href="tel:+380961111111"> +38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </header>
     <!-- Основний контент -->
     <main>
         <!-- Замовлення послуги   -->
-        <section class="hero">
+        <section class="hero container">
             <h1 class="hero_title">
                 Ефективні рішення для вашого бізнесу
             </h1>
             <button class="hero_btn" type="button">Замовити послугу</button>
         </section>
         <!--  Якості  -->
-        <section class="aboutsection">
+        <section class="aboutsection container">
             <h2 hidden class="title">Прихований заголовок</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -64,9 +66,9 @@
             </ul>
         </section>
         <!--  Сфера діяльності  -->
-        <section class="worksection">
+        <section class="worksection container">
             <h2 class="title">Чим ми займаємося</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/laptop.png" width="370px" alt="laptop">
                 </li>
@@ -79,9 +81,9 @@
             </ul>
         </section>
         <!-- Наша команда -->
-        <section class="teamsection">
+        <section class="teamsection container">
             <h2 class="title">Наша команда</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/productdesigner.jpg" alt="Игорь Демьяненко" width="270">
                     <h3>Ігор Дем'яненко</h3>
@@ -105,13 +107,13 @@
             </ul>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
         <a href="./index.html" class="logo">
             <img src="./images/webstudiofooter.png" alt="WebStudio" width="145">
         </a>
         <address>
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <ul>
+            <ul class="list">
                 <li><a href="emailto:info@devstudio.com" class="contactmail" >info@devstudio.com </a></li>
                 <li><a href="tel:+380961111111" class="contactphone" > +38 096 111 11 11</a></li>
             </ul>

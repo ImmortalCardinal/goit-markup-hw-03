@@ -16,30 +16,30 @@
 
 <body class="bodyportfolio">
     <!-- Верх сайту з навігацією -->
-    <div class="page-header-container conteiner">
     <header class="page_header">
-        <nav class="page_nav">
-            <a href="./index.html">
-                <img src="./images/webstudiologo.png" alt="WebStudio" class="logo">
-            </a>
-            <ul class="site_nav list">
-                <li><a href="./index.html" class="link list">Студия</a></li>
-                <li><a href="./portfolio.html" class="link list">Портфолио</a></li>
-                <li><a href="" class="link list">Контакты</a></li>
+        <div class="container page_header_comtainer">
+            <nav class="page_nav">
+                <a href="./index.html">
+                    <img src="./images/webstudiologo.png" alt="WebStudio" class="logo" width="145" height="31">
+                </a>
+                <ul class="site_nav list">
+                    <li><a href="./index.html" class="menu_item link">Студия</a></li>
+                    <li><a href="./portfolio.html" class="menu_item link">Портфолио</a></li>
+                    <li><a href="" class="menu_item link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts adress list">
+                <li><a class="mailtel link" href="emailto:info@devstudio.com">info@devstudio.com </a></li>
+                <li><a class="mailtel link" href="tel:+380961111111"> +38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="adress">
-            <li><a class="mailtel" href="emailto:info@devstudio.com">info@devstudio.com </a></li>
-            <li><a class="mailtel" href="tel:+380961111111"> +38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
-    </div>
     <!-- Основний контент портфоліо -->
     <main>
         <!-- Список кнопок під шапкою -->
-        <section class="btn_section">
+        <section class="btn_section container">
             <h1 hidden>Список кнопок</h1>
-            <ul class="button_list">
+            <ul class="button_list list">
                 <li><button type="button" class="btn_portfolio">Все</button></li>
                 <li><button type="button" class="btn_portfolio">Веб-сайти</button></li>
                 <li><button type="button" class="btn_portfolio">Додатки</button></li>
@@ -48,7 +48,7 @@
             </ul>
             <!-- Список робіт в портфоліо -->
             <h2 hidden> Приховати заголовок</h2>
-            <ul class="portfolio_list">
+            <ul class="portfolio_list list">
                 <li class="listitem1">
                     <img src="./images/portfolioimages/technokrak.png" alt="Технокряк" width="370" />
                     <h3 class="project_title">Технокряк</h3>
