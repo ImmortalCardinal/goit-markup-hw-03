@@ -23,11 +23,11 @@ img
 }
 address
 {
-    font: normal;
+font: normal;
 }
 button
 {
-    cursor: pointer;
+cursor: pointer;
 }
 .list
 {
@@ -35,7 +35,7 @@ list-style:  none;
 }
 .link
 {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .page_header
@@ -50,7 +50,13 @@ color: #212121;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 background: #E5E5E5;
-width: 1600px;
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /*  Стилізація Header page */
 .page_header
@@ -59,6 +65,18 @@ background: #FFFFFF;
 padding-top: 32;
 padding-bottom: 32;
 }
+/* Site _nav Display flex */
+.site_nav .list
+{
+display: flex;
+}
+.page-header-container
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+/* Site _nav Display flex */
 .site_nav a
 {
 font-weight: 500;
