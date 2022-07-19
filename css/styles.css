@@ -272,17 +272,39 @@ margin-right: 50px;
 
 /* HEADER ITEMS */
 /* Hero section items */
+.hero
+{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
 .hero_title
 {
 display: inline-block;
 width: 696px;
 height: 120px;
+margin-top: 200px;
 }
 .hero_btn
 {
-
+margin-top: 30px;
+margin-bottom: 200px;
 }
 /* Hero section items */
+
+/* aboutsection */
+.about_item_list
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.about_item_list:not(:last-child)
+{
+margin-right: 30px;
+}
+/* aboutsection */
+
 /* Portfolio btn list */
 .button_list
 {
