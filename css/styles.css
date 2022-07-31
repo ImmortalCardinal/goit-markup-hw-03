@@ -46,7 +46,7 @@ padding-right: 15px;
 }
 .page_header {
     background: #FFFFFF;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid  #EEEEEE;;
 }
 
 /* Стилізуємо шрифт всього BODY*/
@@ -59,8 +59,8 @@ padding-right: 15px;
 /*  =========================== Стилізація Header page =========================== */
 .page_header {
     background: #FFFFFF;
-    /* padding-top: 32;
-    padding-bottom: 32; */
+    padding-top:24px;
+    padding-bottom:25px;
 }
 
 /* ===================== Стилізація логотипу ======================= */
@@ -77,11 +77,11 @@ padding-right: 15px;
 
 .logo_first_word {
     color: #2196F3;
-    margin-right: 93px;
 }
 
 .logo_second_word_black {
     color: #000000;
+    margin-right: 93px;
 }
 
 .logo_second_word_white {
@@ -94,8 +94,6 @@ padding-right: 15px;
 .page-header-container
 {
     display: flex;
-    margin-top: 24px;
-    margin-bottom: 25px;
 }
 .page_nav
 {
@@ -109,12 +107,14 @@ padding-right: 15px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+.site-nav-list a
+{
     color: #212121;
-
 }
 .site-nav-list li:not(:last-child)
 {
-    padding-right: 50px;
+    margin-right: 50px;
 }
 .adress
 {
@@ -124,12 +124,9 @@ padding-right: 15px;
 }
 .adress li:not(:last-child)
 {
-    padding-left: 50px;
-}
-.adress_contact_list_mail
-{
     margin-right: 50px;
 }
+
 
 /* ======= /Pageheader ======= */
 
@@ -190,8 +187,10 @@ margin-bottom: 30px;
 }
 
 .btn_portfolio {
+    padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: 0;
     font-weight: 500;
     line-height: 1.625;
     letter-spacing: 0.03em;
@@ -212,6 +211,11 @@ margin-bottom: 30px;
     text-transform: uppercase;
     color: #212121;
 }
+.aboutsection
+{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .aboutsection p {
     font-size: 14px;
@@ -231,10 +235,6 @@ width: 270px;
 .about_item_list
 {
 display: flex;
-margin-left: auto;
-margin-right: auto;
-padding-top: 94px;
-padding-bottom: 94px;
 }
 .about_item_list h3
 {
@@ -251,13 +251,12 @@ margin-bottom: 10px;
     margin-bottom: 50px;
 }
 /* Displayflex ===Worksection=== */
-.worksection,
+.worksection
 {
     padding-bottom: 94px;
 }
 .worksection-container
 {
-padding-bottom: 100px;
 }
 .worksection_list
 {
@@ -315,12 +314,12 @@ padding-bottom: 100px;
 
 .footer-container
 {
-    padding-top: 54px;
-    padding-bottom: 60px;
 }
 
 .footer {
     background: #2F303A;
+    padding-top: 54px;
+    padding-bottom: 60px;
 }
 
 .footer p {
@@ -347,6 +346,7 @@ padding-bottom: 100px;
 .address-footer-section
 {
     margin-top: 20px;
+    font-style: inherit;
 }
 .address-footer-section :not(:last-child)
 {
@@ -403,7 +403,8 @@ padding-bottom: 100px;
 .button_list
 {
     display: flex;
-    margin-bottom: 34px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 .button_list li:not(:last-child)
 {
@@ -414,14 +415,15 @@ padding-bottom: 100px;
     background-color: #2196F3;
     color: #FFFFFF;
 }
-.button_list
-{
-    margin-left: auto;
-    margin-right: auto;
-}
 .button-list-container
 {
     display: flex;
 }
-
+.protfolio-list-content-container
+{
+    padding: 20px 24px;
+    border-right:1px solid #EEEEEE; ;
+    border-bottom:1px solid #EEEEEE; ;
+    border-left:1px solid #EEEEEE; ;
+}
 /* Displayflex ===/portfolio-main-container=== */
