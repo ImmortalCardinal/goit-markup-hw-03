@@ -48,7 +48,10 @@ padding-right: 15px;
     background: #FFFFFF;
     border-bottom: 1px solid  #EEEEEE;;
 }
-
+.page-nav-list
+{
+    padding: 24px 0;
+}
 /* Стилізуємо шрифт всього BODY*/
 .body,
 .bodyportfolio {
@@ -59,8 +62,6 @@ padding-right: 15px;
 /*  =========================== Стилізація Header page =========================== */
 .page_header {
     background: #FFFFFF;
-    padding-top:24px;
-    padding-bottom:24px;
 }
 
 /* ===================== Стилізація логотипу ======================= */
@@ -386,8 +387,6 @@ margin-bottom: 8px;
 /* Displayflex ===portfolio-main-container=== */
 .portfolio-main-container
 {
-padding-top: 96px;
-padding-bottom: 120px;
 }
 
 .portfolio_list
@@ -421,5 +420,14 @@ padding-bottom: 120px;
     border-right:1px solid #EEEEEE; ;
     border-bottom:1px solid #EEEEEE; ;
     border-left:1px solid #EEEEEE; ;
+}
+.protfolio-list-content-container h3
+{
+    padding-bottom: 8px;
+}
+.btn_portfolio_section
+{
+    padding-top: 96px;
+    padding-bottom: 120px
 }
 /* Displayflex ===/portfolio-main-container=== */
